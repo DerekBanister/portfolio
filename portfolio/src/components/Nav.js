@@ -6,7 +6,8 @@ import '../styles/style.css';
 
 const styles = {
     color: {
-        backgroundColor: "beige"
+
+        backgroundColor: "#00008b"
     }
 }
 
@@ -16,7 +17,7 @@ function Nav() {
         <ul className="nav" style={styles.color}>
             <h1 class="duck">
                 <span id="derek">Derek Banister</span>
-                <small class="text-dark aspire">Full Stack Web Developer</small>
+                <small class="aspire">Full Stack Web Developer</small>
             </h1>
         </ul>
     );

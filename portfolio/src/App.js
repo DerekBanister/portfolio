@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './components/Nav'
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact'
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
         <>
             <Nav></Nav>
             <About></About>
-            <br></br>
             <Projects></Projects>
+            <Contact></Contact>
         </>
     )
 }
