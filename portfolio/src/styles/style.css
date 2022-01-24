@@ -1,10 +1,6 @@
 * {
     font-family: 'Crimson Text', serif;
     margin: 1px;
-    color: black;
-  }
-  body {
-    background-color: black;
   }
   .card {
       display: inline-flex;
@@ -14,10 +10,12 @@
       width: 400px;
       margin: 10px;
       border: none;
-      background-color: white;    
+  }
+  .nav {
+    padding: 10px;
   }
   #derek {
-    color: white;
+    color: black;
   }
   .aboutme {
     font-size: 24px;
@@ -39,30 +37,9 @@
   }
   .aspire {
     font-style: italic;
-      opacity: 0.8;
+      opacity: 0.9;
       font-size: 20px;
   }
-.icon {
-  display: inline;
-  padding: 0px;
-  height: 20px;
-  
-}
-a:hover {
-  opacity: 0.8;
-}
-.email {
-  color: white;
-}
-.footer {
-  font-size: 30px;
-  position: fixed;
-    height: 50px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-}
 
 /* media queries for resizing */
 @media only screen and (max-width: 900px) {
@@ -90,3 +67,4 @@ a:hover {
     background-repeat: repeat;
   }
 }
+

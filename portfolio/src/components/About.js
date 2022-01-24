@@ -5,28 +5,30 @@ import '../styles/style.css';
 
 const styles = {
     db: {
-        borderRadius: "50%",
-        width: "400px",
+        borderRadius: "10%",
+        width: "420px",
         height: "380px",
+        padding: "30px",
+
+    },
+    color: {
+        backgroundColor: "white"
     }
 }
 function About() {
     return (
-        <div class="container">
-            <div class="card-columns">
-                <div class="card hide-card">
-                    <div class="card-block hide-card justify-content-center">
+        <div class="container" style={styles.color}>
+            <div class="card-columns" style={styles.color}>
+                <div class="card" style={styles.color}>
+                    <div class="card-block hide-card justify-content-center" style={styles.color}>
                         <img src={me} class="card-img-top db" style={styles.db} alt="Me"></img>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-block">
-                        <h5 class="card-title aboutme">Thanks for visiting my page! I am 26 years old, born and raised in
-                            Pleasanton, CA. I am a former law enforcement student and Contra Costa County Police Academy
-                            graduate switching careers into the field of web development. I am incredibly excited to begin
-                            this new journey in my life and acquire new skills to reach my goals. I enjoy playing
-                            sports, watching movies, playing video games, and spending time with my dog Raider and my wife
-                            Katrina.</h5>
+
+                <div class="card" style={styles.color}>
+                    <div class="card-block" style={styles.color}>
+                        <h1>About Me</h1>
+                        <h5 class="card-title aboutme" style={styles.color}>I am a 26 year old full stack web developer who lives in the Bay Area. I am currently proficient in JavaScript; mainly React.Js, Node.Js, and MySQL/Mongo. I love to learn new things, work in teams, and solve problems. In my free time I enjoy watching sports, playing video games, and spending time with my wife and dog.</h5>
                     </div>
                 </div>
             </div>
