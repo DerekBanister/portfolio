@@ -1,6 +1,15 @@
 import React from 'react';
-import HomePage from './HomePage';
+import Nav from './components/Nav'
+import About from './components/About';
 
-const App = () => <HomePage />;
+function App() {
+    return (
+        <>
+            <Nav></Nav>
+            <About></About>
+        </>
+    )
+}
+
 
 export default App;

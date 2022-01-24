@@ -1,0 +1,92 @@
+* {
+    font-family: 'Crimson Text', serif;
+    margin: 1px;
+    color: black;
+  }
+  body {
+    background-color: black;
+  }
+  .card {
+      display: inline-flex;
+      text-align: center;
+      justify-content: center;
+      height: 400px;
+      width: 400px;
+      margin: 10px;
+      border: none;
+      background-color: white;    
+  }
+  #derek {
+    color: white;
+  }
+  .aboutme {
+    font-size: 24px;
+  }
+.card-columns {
+    display: flex;
+    justify-content: center;
+  }
+  .hide-card {
+    text-align: center;
+    border: none;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .duck {
+    margin: auto;
+    font-size: 40px
+  }
+  .aspire {
+    font-style: italic;
+      opacity: 0.8;
+      font-size: 20px;
+  }
+.icon {
+  display: inline;
+  padding: 0px;
+  height: 20px;
+  
+}
+a:hover {
+  opacity: 0.8;
+}
+.email {
+  color: white;
+}
+.footer {
+  font-size: 30px;
+  position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+/* media queries for resizing */
+@media only screen and (max-width: 900px) {
+  .card-columns {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1200px) {
+.aboutme {
+  font-size: 22px;
+}
+}
+@media only screen and (max-width: 900px) {
+  .card {
+    display: block;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .card-deck {
+    display: block;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    background-repeat: repeat;
+  }
+}
