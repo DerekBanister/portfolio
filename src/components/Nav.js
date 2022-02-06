@@ -6,7 +6,7 @@ import '../styles/style.css';
 import me from "../images/me.jpg"
 import js from "../images/js.png"
 import node from "../images/node.png"
-import react from "../images/react.png"
+import react from "../images/react.jpg"
 import mysql from "../images/mysql.png"
 import css from "../images/css.png"
 import html from "../images/html.png"
@@ -25,6 +25,7 @@ const styles = {
         padding: "20px",
     },
     aspire: {
+        fontFamily: 'Cabin',
         fontStyle: "italic",
         opacity: "0.9",
         fontSize: "20px",
@@ -55,10 +56,9 @@ function Nav() {
                 <img src={js} alt="Js"></img>
                 <img src={node} alt="Node"></img>
                 <img src={react} alt="React"></img>
-                <img src={html} alt="Html"></img>
                 <img src={mysql} alt="Mysql"></img>
-                <img src={mongo} alt="Mongo"></img>
-                <img src={css} alt="Css"></img>
+                <img src={html} alt="Html"></img>
+
             </div>
         </div>
 

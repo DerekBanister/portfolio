@@ -12,7 +12,7 @@ const styles = {
     cardDeck: {
         margin: "10px",
         display: "flex",
-        justifyContent: "center"
+        justifyContent: "center",
     },
     images: {
         width: "90%",
@@ -20,7 +20,7 @@ const styles = {
         objectFit: "cover"
     },
     card2: {
-        backgroundColor: "white",
+        backgroundColor: "black",
         border: "solid 1px black",
     }
 }
