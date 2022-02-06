@@ -12,16 +12,17 @@
       border: none;
     
   }
-  .nav {
-    padding: 15px;
+  .navvy{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    border-bottom: 1px solid black;
   }
   .title {
     margin-top: 0px;
     text-decoration: underline;
   }
-  #derek {
-    color: #ADD8E6;
-  }
+
   .workTitle {
     display: flex;
     text-align: center;
@@ -37,17 +38,7 @@
   }
   .card-title {
     text-align: center;
-    color: #ADD8E6;
-  }
-  .duck {
-    margin: auto;
-    font-size: 40px
-  }
-  .aspire {
-    font-style: italic;
-      opacity: 0.9;
-      font-size: 20px;
-      color: #ADD8E6;
+    color: black;
   }
 
 /* media queries for resizing */
@@ -74,6 +65,16 @@
 @media only screen and (max-width: 900px) {
   body {
     background-repeat: repeat;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .navvy {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .techs {
+    justify-content: center;
   }
 }
 

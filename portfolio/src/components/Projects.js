@@ -20,8 +20,8 @@ const styles = {
         objectFit: "cover"
     },
     card2: {
-        backgroundColor: "#00008b",
-        border: "solid 1px #ADD8E6",
+        backgroundColor: "white",
+        border: "solid 1px black",
     }
 }
 
