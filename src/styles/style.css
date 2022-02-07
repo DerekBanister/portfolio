@@ -7,8 +7,7 @@
       height: 400px;
       width: 400px;
       margin: 25px;
-      border: none;
-    
+      border: none; 
   }
   .navvy{
     font-family: 'Anton', sans-serif;
@@ -21,7 +20,6 @@
     margin-top: 0px;
     text-decoration: underline;
   }
-
   .workTitle {
     display: flex;
     text-align: center;
@@ -39,7 +37,9 @@
     text-align: center;
     color: white;
   }
-
+  .icon {
+    padding: 10px;
+  }
 /* media queries for resizing */
 @media only screen and (max-width: 900px) {
   .card-columns {
@@ -48,11 +48,6 @@
 }
 @media only screen and (max-width: 900px) {
   .card {
-    display: block;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .card-deck {
     display: block;
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav'
 import Projects from './components/Projects';
-import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <>
             <Nav></Nav>
             <Projects></Projects>
-            <Contact></Contact>
+            <Footer></Footer>
         </>
     )
 }

@@ -11,6 +11,7 @@ import mysql from "../images/mysql.png"
 import css from "../images/css.png"
 import html from "../images/html.png"
 import mongo from "../images/mongo.png"
+import { buildQueries } from '@testing-library/react';
 
 const styles = {
     color: {
@@ -22,7 +23,7 @@ const styles = {
         borderRadius: "50%",
         width: "420px",
         height: "350px",
-        padding: "20px",
+        padding: "15px",
     },
     aspire: {
         fontFamily: 'Cabin',
@@ -31,14 +32,25 @@ const styles = {
         fontSize: "20px",
     },
     duck: {
+        color: "white",
         margin: "auto",
-        fontSize: "7vw"
+        fontSize: "7vw",
+        opacity: "0.9",
     },
     techs: {
+        marginTop: "30px",
+        padding: "5px",
         color: "black",
         display: "inline-flex",
         height: "80px",
     },
+    projects: {
+        fontSize: "35px",
+        textDecoration: "underline",
+        marginTop: "35px",
+        marginBottom: "0px",
+        padding: "0px",
+    }
 }
 
 function Nav() {
@@ -53,13 +65,18 @@ function Nav() {
                 <img src={me} style={styles.db} alt="Me"></img>
             </div>
             <div className="techs" style={styles.techs}>
+                <br></br>
                 <img src={js} alt="Js"></img>
                 <img src={node} alt="Node"></img>
                 <img src={react} alt="React"></img>
                 <img src={mysql} alt="Mysql"></img>
                 <img src={html} alt="Html"></img>
-
             </div>
+            <div>
+                <br></br>
+                <h2 style={styles.projects}>My Work</h2>
+            </div>
+
         </div>
 
     );
