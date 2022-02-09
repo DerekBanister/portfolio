@@ -43,6 +43,7 @@ const styles = {
         color: "black",
         display: "inline-flex",
         height: "80px",
+        border: "white, solid, 1px",
     },
     projects: {
         fontSize: "35px",
