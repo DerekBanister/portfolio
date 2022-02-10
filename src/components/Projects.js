@@ -25,12 +25,25 @@ const styles = {
     text: {
         color: "white",
         fontSize: "14px"
-    }
+    },
+    projects: {
+        textAlign: "center",
+        backgroundColor: "black",
+        fontSize: "35px",
+        color: 'white',
+        textDecoration: "underline",
+        marginTop: "5px",
+        marginBottom: "0px",
+        padding: "0px",
+    },
 }
 
 function Projects() {
     return (
         <div>
+            <div>
+                <h2 style={styles.projects}>My Work</h2>
+            </div>
             <div class="card-columns" style={styles.card1}>
                 <div class="card" style={styles.card2}>
                     <div class="card-body">

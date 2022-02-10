@@ -6,8 +6,6 @@ import me from "../images/me.jpg"
 import js from "../images/js.png"
 import node from "../images/node.png"
 import react from "../images/react.jpg"
-import mysql from "../images/mysql.png"
-import html from "../images/html.png"
 import mongo from "../images/mongo.png"
 import resume from "../images/Resume.pdf.pdf"
 
@@ -20,9 +18,9 @@ const styles = {
     },
     db: {
         borderRadius: "50%",
-        width: "420px",
+        width: "400px",
         height: "350px",
-        padding: "15px",
+        padding: "10px",
     },
     aspire: {
         fontFamily: 'Cabin',
@@ -31,28 +29,24 @@ const styles = {
         fontSize: "20px",
     },
     duck: {
-        borderBottom: "0.5px solid white",
         color: "white",
         margin: "auto",
         fontSize: "7vw",
     },
     techs: {
-        marginTop: "30px",
+        marginTop: "100px",
         padding: "5px",
         color: "black",
         display: "inline-flex",
         height: "80px",
         border: "white, solid, 1px",
     },
-    projects: {
-        fontSize: "35px",
-        textDecoration: "underline",
-        marginTop: "35px",
-        marginBottom: "0px",
-        padding: "0px",
-    },
+
     intro: {
         padding: "10px",
+    },
+    link: {
+        color: "black",
     }
 }
 
@@ -65,9 +59,9 @@ function Nav() {
                 <small style={styles.aspire}>Full Stack Web Developer</small>
             </h1>
             <div style={styles.intro}>
-                <p>Thanks for visiting my page! I am a MERN Developer that graduated UC Berkeley Extension's coding boot camp in December 2021.
+                <p>Thanks for visiting my page! I am a MERN Stack Developer that graduated UC Berkeley Extension's coding boot camp in December 2021.
                     <br></br>
-                    <a href={resume} download="Resume.pdf.pdf">You can click here to download my resume.</a></p>
+                    <a href={resume} download="Resume.pdf.pdf" style={styles.link}>You can click here to download my resume.</a></p>
             </div>
             <div>
                 <img src={me} style={styles.db} alt="Me"></img>
@@ -77,15 +71,8 @@ function Nav() {
                 <img src={js} alt="Js"></img>
                 <img src={node} alt="Node"></img>
                 <img src={react} alt="React"></img>
-                <img src={mysql} alt="Mysql"></img>
-                <img src={html} alt="Html"></img>
                 <img src={mongo} alt="Mongo"></img>
             </div>
-            <div>
-                <br></br>
-                <h2 style={styles.projects}>My Work</h2>
-            </div>
-
         </div>
 
     );

@@ -1,3 +1,7 @@
+#root {
+  background-color: black;
+  margin: 0.5px;
+}
   .card {
     font-family: 'Yanone Kaffeesatz', sans-serif;
       font-weight: bold;
@@ -11,8 +15,6 @@
   .navvy{
     font-family: 'Anton', sans-serif;
     background-image: url("../images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat, repeat;
     border-bottom: 1px solid black;
   }
   .title {
@@ -61,5 +63,4 @@
     justify-content: center;
   }
 }
-
 
