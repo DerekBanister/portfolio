@@ -1,5 +1,4 @@
 // 21 react style
-
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
@@ -8,14 +7,14 @@ import js from "../images/js.png"
 import node from "../images/node.png"
 import react from "../images/react.jpg"
 import mysql from "../images/mysql.png"
-import css from "../images/css.png"
 import html from "../images/html.png"
 import mongo from "../images/mongo.png"
-import { buildQueries } from '@testing-library/react';
+import resume from "../images/Resume.pdf.pdf"
 
 const styles = {
     color: {
         textAlign: "center",
+        justifyContent: "center",
         backgroundColor: "black",
         color: "white",
     },
@@ -32,10 +31,10 @@ const styles = {
         fontSize: "20px",
     },
     duck: {
+        borderBottom: "0.5px solid white",
         color: "white",
         margin: "auto",
         fontSize: "7vw",
-        opacity: "0.9",
     },
     techs: {
         marginTop: "30px",
@@ -51,6 +50,9 @@ const styles = {
         marginTop: "35px",
         marginBottom: "0px",
         padding: "0px",
+    },
+    intro: {
+        padding: "10px",
     }
 }
 
@@ -62,6 +64,11 @@ function Nav() {
                 <span>Derek Banister</span>
                 <small style={styles.aspire}>Full Stack Web Developer</small>
             </h1>
+            <div style={styles.intro}>
+                <p>Thanks for visiting my page! I am a MERN Developer that graduated UC Berkeley Extension's coding boot camp in December 2021.
+                    <br></br>
+                    <a href={resume} download="Resume.pdf.pdf">You can click here to download my resume.</a></p>
+            </div>
             <div>
                 <img src={me} style={styles.db} alt="Me"></img>
             </div>
@@ -72,6 +79,7 @@ function Nav() {
                 <img src={react} alt="React"></img>
                 <img src={mysql} alt="Mysql"></img>
                 <img src={html} alt="Html"></img>
+                <img src={mongo} alt="Mongo"></img>
             </div>
             <div>
                 <br></br>

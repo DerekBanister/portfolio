@@ -7,7 +7,6 @@
       height: 600px;
       width: 400px;
       margin: 25px;
-      border: none; 
   }
   .navvy{
     font-family: 'Anton', sans-serif;
@@ -38,6 +37,7 @@
     color: white;
   }
   .icon {
+    background-color: black;
     padding: 10px;
   }
 /* media queries for resizing */
@@ -61,4 +61,5 @@
     justify-content: center;
   }
 }
+
 
