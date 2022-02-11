@@ -22,8 +22,8 @@ const styles = {
     db: {
         top: "0px",
         borderRadius: "50%",
-        width: "400px",
-        height: "330px",
+        width: "320px",
+        height: "320px",
         padding: "0px",
     },
     aspire: {
@@ -41,7 +41,7 @@ const styles = {
         padding: "5px",
         color: "black",
         display: "inline-flex",
-        height: "45px",
+        height: "40px",
         border: "white, solid, 1px",
     },
 

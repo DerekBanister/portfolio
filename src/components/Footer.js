@@ -1,15 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
-import { GrLinkedin } from 'react-icons/gr';
-import { GrGithub } from 'react-icons/gr';
+var { SocialIcon } = require('react-social-icons');
 
 var style = {
-    backgroundColor: "black",
-    color: "white",
-    borderTop: "1px solid #E7E7E7",
+    backgroundColor: "#232323",
+    borderTop: "1px solid #232323",
     textAlign: "center",
-    padding: "20px",
+    padding: "10px",
     display: "block",
     position: "fixed",
     left: "0",
@@ -19,10 +17,8 @@ var style = {
 }
 
 var phantom = {
-    backgroundColor: "black",
-    color: "black",
-    padding: '20px',
-    height: '60px',
+    padding: '10px',
+    height: '50px',
     width: '100%',
 }
 
@@ -31,10 +27,10 @@ function Footer() {
         <div>
             <div style={phantom} />
             <div style={style}>
-                <a href="https://www.linkedin.com/in/derek-banister/" target="_blank" rel="noreferrer" class="icon">< GrLinkedin size={30} /></a>
-                <a href="https://github.com/DerekBanister" target="_blank" rel="noreferrer" class="icon"> <GrGithub size={30} /> </a>
+                <SocialIcon url="https://www.linkedin.com/in/derek-banister/" bgColor="black" fgColor="white" target="_blank" />
+                <SocialIcon url="https://github.com/DerekBanister" bgColor="black" fgColor="white" target="_blank" />
             </div>
-        </div>
+        </div >
     )
 }
 export default Footer;

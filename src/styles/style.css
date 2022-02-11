@@ -8,8 +8,8 @@
       display: inline-flex;
       text-align: center;
       justify-content: center;
-      height: 600px;
-      width: 400px;
+      height: 550px;
+      width: 350px;
       margin: 25px;
   }
   .navvy{
@@ -55,6 +55,11 @@
   }
 }
 @media only screen and (max-width: 900px) {
+  body {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 900px) {
   .card {
     display: block;
   }
@@ -64,14 +69,10 @@
     justify-content: center;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .techs {
-    justify-content: center;
-  }
-}
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 1500px) {
   .card {
-    height: 500px;
+    height: 590px;
   }
 }
 
