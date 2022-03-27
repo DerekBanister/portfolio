@@ -85,10 +85,10 @@ function Nav() {
             <h1 style={styles.duck}>
                 <span>Derek Banister</span>
                 <div className="techs" style={styles.techs}>
-                    <img src={js} alt="Js"></img>
-                    <img src={node} alt="Node"></img>
-                    <img src={react} alt="React"></img>
-                    <img src={mongo} alt="Mongo"></img>
+                    <img class="tiny" src={js} alt="Js"></img>
+                    <img class="tiny" src={node} alt="Node"></img>
+                    <img class="tiny" src={react} alt="React"></img>
+                    <img class="tiny" src={mongo} alt="Mongo"></img>
                 </div>
             </h1>
             <div style={styles.intro}>
