@@ -84,6 +84,7 @@
 @media only screen and (max-width: 1500px) {
   .tiny {
     height: 20px;
+    width: 20px;
   }
 }
 
